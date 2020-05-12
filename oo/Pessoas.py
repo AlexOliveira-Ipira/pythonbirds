@@ -33,8 +33,10 @@ class Pessoas:
     def nome_e_atributos_de_classe(cls):
         return f'{cls} - olhos {cls.olhos}'
     
-    
- 
+#classe Homem erdando da class Pessoa
+class Homem(Pessoas):
+    pass
+
 """
 Neste exemplo de filhos esta sendo utilizando os nome ficticios de João
  e Jose - Sendo Joào o pai de José
