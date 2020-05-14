@@ -61,6 +61,7 @@ class Fase():
         """
         self._passaros.extend(passaros)
 
+    @property
     def status(self):
         """
         Método que indica com mensagem o status do jogo
@@ -79,8 +80,6 @@ class Fase():
             return EM_ANDAMENTO
         else:
             return DERROTA
-        
-        
         return VITORIA
 
     def lancar(self, angulo, tempo):
