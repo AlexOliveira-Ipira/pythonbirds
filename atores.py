@@ -133,8 +133,8 @@ class Passaro(Ator):
 
 
 class PassaroAmarelo(Passaro):
-    _caracter_ativo = 'V'
+    _caracter_ativo = 'A'
 
 
 class PassaroVermelho(Passaro):
-    _caracter_ativo = 'A'
+    _caracter_ativo = 'V'
